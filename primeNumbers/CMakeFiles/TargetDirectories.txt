@@ -1,0 +1,3 @@
+/home/ivgo5040/HPC/primeNumbers/CMakeFiles/rebuild_cache.dir
+/home/ivgo5040/HPC/primeNumbers/CMakeFiles/edit_cache.dir
+/home/ivgo5040/HPC/primeNumbers/CMakeFiles/primes.dir
