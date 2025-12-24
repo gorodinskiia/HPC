@@ -1,0 +1,1 @@
+## heap is the region of the memory that is used for dynamic allocation (for example variables with new)

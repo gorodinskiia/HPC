@@ -15,3 +15,8 @@
 ## major.minor = 8.6 for example and this is computable capability (what features the GPU has and how code should be compiled for it) 
 # major is what arhitecture and what big features exist
 # minor how thoese features are implemented
+
+## int tid = threadIdx.x + blockIdx.x * blockDim.x; - this computes global thread ID
+## cmake - CMake tells your computer how to build your program, without actually building it itself. (bulding a program means to turn human written code into an executable)
+## build - then makes it so you turn the human written code into an executable
+## #include <iostream> - include C++ basic input/output features

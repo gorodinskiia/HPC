@@ -1,0 +1,19 @@
+## Threads
+1. Basic unit of execution in CUDA
+2. Each thread has its own id so it can access its own part of the data 
+3. Every thread has local memory and registers (registers store local varabiables such as tid)
+4. Each thread has a finite amount of registers so if we define too many local variables that can cause
+register spillage
+
+## Warps
+1. Groups of 32 threads
+2. All threads in a warp execute the same instruction all at the same time
+
+## Blocks 
+1. Groups of threads that execute a kernal together
+2. Containers for threads
+3. Number of threads per block is block size 
+
+## Grid
+1. Collection of blocks used to execute a kernel
+2. Number of blocks in a grid is grid size 
