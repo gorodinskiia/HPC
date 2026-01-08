@@ -20,3 +20,5 @@
 ## cmake - CMake tells your computer how to build your program, without actually building it itself. (bulding a program means to turn human written code into an executable)
 ## build - then makes it so you turn the human written code into an executable
 ## #include <iostream> - include C++ basic input/output features
+
+## using namespace std - makes it so you do not have to write ::std everytime 

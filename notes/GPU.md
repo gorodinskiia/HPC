@@ -17,3 +17,17 @@ register spillage
 ## Grid
 1. Collection of blocks used to execute a kernel
 2. Number of blocks in a grid is grid size 
+
+## Stream
+1. A queue of operations that execute in order on the GPU
+2. Operations on the same stream run sequentially
+3. Operations on different streams run concurrenlty
+
+## Event
+1. Used to track GPU execution time
+
+## Amdahls Law
+1.  The speed up we achieve with we can achieve with parralalism is by the parts of our application that are sequential
+
+## Cache Miss 
+1. When the CPU or GPU looks for data in the cache but nothing is there so it looks for the data somewhere else and that wait is called the miss
